@@ -3,7 +3,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (
     changeInfo.status === "complete" &&
     tabUrl &&
-    tabUrl.includes("app.slack.com")
+    tabUrl.includes("docs.google.com/document")
   ) {
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
