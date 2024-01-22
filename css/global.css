@@ -1,4 +1,4 @@
 /* "more unreads" button, enable desktop notifications banner, and mention badge */
-div[aria-label="Type @ to insert"] {
+div[aria-label="Type @ to insert"], .docs-instant-bubble-visible {
   display: none !important;
 }
