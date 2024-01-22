@@ -24,13 +24,13 @@
 "content_scripts": [
     {
         "matches": [
-        "*://*.docs.google.com/*"
+        "*://*.docs.google.com/document/*"
       ],
       "css": ["css/global.css"]
     }
 ],
   "host_permissions": [
-    "*://*.docs.google.com/*"
+    "*://*.docs.google.com/document/*"
   ],
   "action": {
       "default_popup": "popup.html"
